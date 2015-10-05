@@ -1,0 +1,20 @@
+employment:
+  - title: Fullstack Engineer
+    startDate: 03/2015
+    endDate: current
+    companyName: Mashape
+    website: http://mashape.com
+    location: San Francisco, CA
+    address: 500-A Montgomery
+    responsibilities: Architected and developed the structure and implementation of the frontend of Mashape's API Analytics  app, Galileo.
+    stack: Mithril.js, D3, Node.js, ElasticSearch, Postgres, Browserify, Gulp, LESS, Bootstrap
+    
+  - title: Senior Software Engineer
+    startDate: 09/2014
+    endDate: 03/2015
+    companyName: Grow
+    website: http://grow.com
+    location: Provo, UT
+    address: 5314 River Run Dr., Suite 150
+    responsibilities: Application architecture, external API integration, OAuth, Database management, training, small hardware operations, Dev Ops.
+    stack: Angular.js, Node.js, Express, MySQL, Postgres, SQLite, Gulp, LESS
