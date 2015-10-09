@@ -1,0 +1,15 @@
+---
+layout: post
+section-type: post
+title: Gone to the dark side. Also, a new NPM module.
+category: tech
+tags: [ 'node.js', 'npm', 'module', 'google', 'mac', 'apple', 'osx', 'linux', 'dev-tools' ]
+---
+
+And yet another confession. I'm moving to Mac. With my new job starting with [Mashape](http://mashape.com) in two weeks, I am in need of a new development machine, and have been bit in the past when going the route of gaming PCs. The last one I got had the hard drive fail THE FIRST DAY, and the one before that lasted 6 months before the screen went out completely. With most of the dev community on Mac, I know that most of what I want to do is accomplishable with Mac, but I've had so many years of Apple-hating that I don't know what I'm going to do with myself... until I start figuring out Better Touch Tools... cuz that looks srsly legit.
+
+Also, this morning I published my new NPM module, [google-adwords](https://www.npmjs.com/package/google-adwords). It provides a simple interface to access the Google Analytics Reporting API, via the AWQL query language. It's features are a bit limited currently, I'm going to be updating it over the next little while with more sweets, so keep your eyes peeled, and we'll see what I can squeeze into that little guy.
+
+Hope you all are well!
+
+Trent

@@ -1,0 +1,139 @@
+
+# Site settings
+
+url: "http://therebelrobot.com"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+baseurl: /
+
+google-tracking-id: "UA-59630297-1"
+
+#############
+# HTML Head #
+#############
+
+author: "Trent Oswald"
+lang: "en"
+title: "Trent Oswald <img src='/img/black-lab-glass.ico'/> therebelrobot"
+favicon: "/img/favicon.ico"
+description: "Blog and website of Trent Oswald, blogging mainly for tech. Opinions expressed are mine."
+keywords: "oswald, trent, personal, node, javascript, programming, tech, go, golang"
+
+################
+# Intro layout #
+################
+
+black-favicon: ""
+background-img: "/img/intro-bg.jpg"
+me-img: "/img/avatar.png"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "save the world with code."
+  - text: "<code>var life = require('open_source');</code>"
+  - text: "wonders, wizards, waffles, and code."
+  - text: "let's have an adventure."
+
+########
+# Blog #
+########
+
+post-preview-words: 128
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "therebelrobot"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/sfbrigade.jpg"
+    date: "September 2014 - Today"
+    description: "Website & Tools Team Leader @ [Code for San Francisco](http://codeforsanfrancisco.org)"
+  - image: "/img/career/mashape.png"
+    date: "March 2015 - TODAY"
+    description: "Full-stack Engineer over Galileo Analytics @ [Mashape](https://mashape.com)"
+  - image: "/img/career/node.png"
+    date: "January 2014 - Today"
+    description: "Website Working Group Member / Facilitator for [Node.js/io.js](https://nodejs.org)"
+  - image: "/img/career/grow.png"
+    date: "AUGUST 2014 - MARCH 2015"
+    description: "Senior Software Engineer @ [Grow](https://grow.com)"
+  - image: "/img/career/unn.jpg"
+    date: "July 2014 - Feb 2015"
+    description: "Organizer / Mentor / Presenter @ [Utah Node Ninjas](http://www.meetup.com/Utah-Node-Ninjas)"
+  - image: "/img/career/rain.png"
+    date: "MARCH 2013 - JULY 2014"
+    description: "Frontend Engineer @ [Rain Media](https://mediarain.com)"
+
+# First image of the Career timeline
+career-img: "/img/avatar.png"
+
+##################
+# Contact layout #
+##################
+
+email: "trentoswald@therebelrobot.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "twitter"
+    url: "http://twitter.com/therebelrobot"
+  - title: "linkedin"
+    url: "http://linkedin.com/in/therebelrobot"
+  - title: "github"
+    url: "https://github.com/therebelrobot"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: ""
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Experience: 'experience'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "README.md", "vendor"]
