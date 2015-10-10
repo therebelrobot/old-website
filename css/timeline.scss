@@ -133,7 +133,23 @@
     margin-bottom: 0;
 }
 
+
+.navbar-custom .navbar-brand {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.navbar{
+  min-height: 70px;
+}
 @media(min-width:768px) {
+  .navbar-header{
+    max-width: 40%;
+  }
+  .navbar-custom .navbar-brand {
+    max-width: 200%;
+    margin-bottom: 0;
+  }
     .timeline:before {
         left: 50%;
     }
@@ -183,6 +199,16 @@
 }
 
 @media(min-width:992px) {
+    .navbar-header{
+      max-width: 200%;
+    }
+    .navbar-custom .navbar-brand {
+      max-width: 200%;
+      margin-bottom: 0;
+    }
+    .navbar{
+      min-height: 50px;
+    }
     .timeline>li {
         min-height: 150px;
     }
