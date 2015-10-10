@@ -142,6 +142,13 @@
 .navbar{
   min-height: 70px;
 }
+
+h5.callout{
+  font-size: 2em;
+  line-height:1em;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-transform:lowercase;
+}
 @media(min-width:768px) {
   .navbar-header{
     max-width: 40%;
@@ -149,6 +156,12 @@
   .navbar-custom .navbar-brand {
     max-width: 200%;
     margin-bottom: 0;
+  }
+
+  h5.callout{
+
+  font-size: 3em;
+  line-height:2em;
   }
     .timeline:before {
         left: 50%;
