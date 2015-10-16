@@ -12,6 +12,6 @@ There are [ways around this](https://adrianshort.org/create-multiple-forks-of-a-
 
 While Github does restrict the number of times you fork into a specific account, it does *not* restrict the number of organization accounts you can make. Want another fork? Make a new org, name it your-username-2 or whatever, and fork into that. It's hacky, admittedly, and doesn't scale very well, but the option is there.
 
-I'll be posting in the coming days about a new took I'm working on to prevent the need for command line or account hacks. Stay tuned!
+I'll be posting in the coming days about a new tool I'm working on to prevent the need for command line or account hacks. Stay tuned!
 
 *~Trent*
