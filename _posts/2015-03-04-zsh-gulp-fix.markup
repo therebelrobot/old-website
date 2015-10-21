@@ -16,7 +16,7 @@ The reason this is occurring is because the AUTO_CD feature is enabled in my she
 
 If you dislike the idea of disabling that feature, however, try adding the gulp command to the `package.json` file in your project, like this:
 
-```javascript
+```
 {
 	...
     "scripts"{
