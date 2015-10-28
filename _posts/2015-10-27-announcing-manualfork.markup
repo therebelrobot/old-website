@@ -12,7 +12,7 @@ Designed to work around the forking limitations of Github, manualfork allows you
 the need to resort to the command line. Simply log in with your Github account, input your source 
 repo and where you want it mirrored to, and you're good to go. 
 
-![screenshot](https://i.imgur.com/yft41S2.png)
+<img src="https://i.imgur.com/yft41S2.png" style="max-width:100%;" />
 
 ## why?
 
