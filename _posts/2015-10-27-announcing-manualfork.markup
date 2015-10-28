@@ -12,6 +12,8 @@ Designed to work around the forking limitations of Github, manualfork allows you
 the need to resort to the command line. Simply log in with your Github account, input your source 
 repo and where you want it mirrored to, and you're good to go. 
 
+![screenshot](https://i.imgur.com/yft41S2.png)
+
 ## why?
 
 I recently started diving into my work with [Code for San Francisco](http://codeforsanfrancisco.org) and realized 
@@ -22,7 +24,10 @@ there are template repos that are targeting these kind of users, they run into t
 I had done it many times before. I didn't, however, know how to explain this to someone who has 
 no knowledge of command-line, let alone git, and who honestly may not have the time/energy to learn. 
 Civic Tech Volunteers are donating their time whenever its available, and the easier the steps are 
-to get a project started, the better.
+to get a project started, the better. You can add a manualfork badge to any repo, and streamline 
+the process for your developers.
+
+![manual-fork-badge](http://manualfork.therebelrobot.com/img/badge-big.png)
 
 ## CLI also available
 
