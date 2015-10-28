@@ -38,7 +38,7 @@ to make the lives of those of us that traipse into the wild west of the terminal
 ## Definitely v1
 
 There is definitely room to grow. I need to enable force pushing for when you don't want to create 
-a new repo, I want to add some UI sugar, like prefetching the urls and make sure they are there before
+a new repo, I also want to add some UI sugar, like prefetching the urls and make sure they are there before
 submitting, also want to do some cleanup and standardizing of the codebase, make it a little more sane 
 to work with. Any help with these would be spectacular. Feel free to check out the 
 [roadmap](https://github.com/therebelrobot/manualfork#roadmap) or
