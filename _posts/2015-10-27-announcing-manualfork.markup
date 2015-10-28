@@ -17,7 +17,7 @@ repo and where you want it mirrored to, and you're good to go.
 ## why?
 
 I recently started diving into my work with [Code for San Francisco](http://codeforsanfrancisco.org) and realized 
-that not everyone involved with tech know how to use Github, let alone how to use the command-line. So when 
+that not everyone involved with tech knows how to use Github, let alone how to use the command-line. So when 
 there are template repos that are targeting these kind of users, they run into the problem of 
 [forking restrictions](https://github.com/codeforboston/project-template/issues/7). I knew there was a 
 [simple solution](https://help.github.com/articles/duplicating-a-repository/) for this, 
