@@ -1,0 +1,36 @@
+
+<!-- Repos Start -->
+
+<section id="{{ page.title }}" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+
+          {{ page.content | markdownify }}
+
+          <div class="repo-container">
+            {% for repo in site.repos %}
+              {% assign loopindex = forloop.index | modulo: 2 %}
+              {% if loopindex == 1 %}
+              <div class="row">
+              {% endif %}
+                <a href="{{ repo.location }}">
+                  <span class="repo-image">
+                    <img class="repo-image img-circle img-responsive" src="{{site.baseurl}}{{ repo.image }}" alt="" />
+                  </span>
+                  <span class="repo-heading">
+                    {{ repo.name }}
+                  </span>
+                  <span class="repo-body">
+                    {{ repo.description | markdownify }}
+                  </span>
+                </a>
+              {% if loopindex == 0 %}
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- Repos End -->

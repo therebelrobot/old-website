@@ -82,9 +82,40 @@ events:
   - image: "/img/career/unn.jpg"
     date: "July 2014 - Feb 2015"
     description: "Organizer / Mentor / Presenter @ [Utah Node Ninjas](http://www.meetup.com/Utah-Node-Ninjas)"
-  - image: "/img/career/rain.png"
+  - image: "https://i.imgur.com/lElVqA0.png"
     date: "MARCH 2013 - JULY 2014"
-    description: "Frontend Engineer @ [Rain Media](https://mediarain.com)"
+    description: "Frontend Engineer @ [Rain](http://rain.agency/)"
+
+#################
+# Repo Showcase #
+#################
+
+repos:
+  - image: "https://i.imgur.com/9nG4Ca8.png"
+    location: "https://github.com/therebelrobot/manualfork"
+    name: "manualfork"
+    description: "1:1 Github repo mirroring"
+  - image: "https://i.imgur.com/ihzxwUp.png"
+    location: "https://github.com/therebelrobot/countryjs"
+    name: "countryjs"
+    description: "Country data for Node"
+  - image: "https://i.imgur.com/ESp6e8Z.png"
+    location: "https://github.com/therebelrobot/harasser"
+    name: "harasser"
+    description: "Repeated HTTP requests from the terminal"
+  - image: "https://i.imgur.com/KkDkYlF.png"
+    location: "https://github.com/therebelrobot/gpgez"
+    name: "gpgez"
+    description: "CLI wrapper for common GPG commands"
+  - image: "https://i.imgur.com/fQBG3km.png"
+    location: "https://github.com/therebelrobot/diff-compare"
+    name: "diff-compare"
+    description: "line-by-line diffing"
+  - image: "https://i.imgur.com/roo0cGA.png"
+    location: "https://github.com/therebelrobot/superagent-params"
+    name: "superagent-params"
+    description: "superagent middleware to URL-append a param object"
+
 
 # First image of the Career timeline
 career-img: "/img/avatar.png"
@@ -126,6 +157,7 @@ social:
 pages_list:
   About: 'about'
   Blog: 'blog'
+  Repos: 'repos'
   Experience: 'experience'
   Contact: 'contact'
 

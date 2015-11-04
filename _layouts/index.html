@@ -22,7 +22,23 @@
 
         {% include latest-post.html %}
 
-      {% elsif page.section-type == "experience" %}
+      {% endif %}
+
+    {% endfor %}
+
+    {% for page in site.pages %}
+
+        {% if page.section-type == "repos" %}
+
+        {% include repos.html %}
+
+      {% endif %}
+
+    {% endfor %}
+
+    {% for page in site.pages %}
+
+      {% if page.section-type == "experience" %}
 
         {% include career.html %}
 
