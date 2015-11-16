@@ -92,8 +92,8 @@ events:
 
 repos:
   - image: "https://i.imgur.com/9nG4Ca8.png"
-    location: "https://github.com/therebelrobot/manualfork"
-    name: "manualfork"
+    location: "https://github.com/therebelrobot/mirror"
+    name: "mirror"
     description: "1:1 Github repo mirroring"
   - image: "https://i.imgur.com/ihzxwUp.png"
     location: "https://github.com/therebelrobot/countryjs"
