@@ -103,7 +103,7 @@ repos:
     location: "https://github.com/therebelrobot/note-taker"
     name: "note-taker"
     description: "A Mobile-first note taking app built in Vue.js"
-  - image: "https://i.imgur.com/LbSX7lS.png"
+  - image: "https://i.imgur.com/EBNFQVk.png"
     location: "https://github.com/therebelrobot/fontonite"
     name: "fontonite"
     description: "A public API to convert TTF and OTF fonts to Web Fonts"
