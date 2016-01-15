@@ -81,8 +81,8 @@ sudo virtualenv /www/sentry/
 # activate virtaulenv
 source /www/sentry/bin/activate
 
-# install nodejs/npm 0.10 from source
-curl -sL https://deb.nodesource.com/setup_0.10 | sudo -E bash -
+# install nodejs/npm 0.12 from source
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # install sentry from source
@@ -90,3 +90,4 @@ sudo pip install -e git+https://github.com/getsentry/sentry.git@master#egg=sentr
 
 ```
 
+At this point I ran into errors when compiling Sentry. I'll need to look into why later.
