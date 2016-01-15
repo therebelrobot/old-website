@@ -37,4 +37,20 @@ sudo apt-get autoremove
 # reboot the machine, which is only necessary for some updates
 sudo reboot
 
-# install dependencies
+# install basic dependencies
+sudo apt-get install python-setuptools python-pip python-dev libxslt1-dev libxml2-dev libz-dev libffi-dev libssl-dev libpq-dev libyaml-dev
+
+# install postgres: https://help.ubuntu.com/community/PostgreSQL
+sudo apt-get install postgresql postgresql-contrib
+
+# configure postgres
+sudo -u postgres psql postgres
+postgres=# \password postgres
+postgres-# \quit
+sudo -u postgres createdb sentrydb
+
+# install redis: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis
+
+
+
+```
