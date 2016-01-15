@@ -15,6 +15,8 @@ I started with the basic format [found here](http://dustindavis.me/setting-up-yo
 the installing of `pip` and `sentry`, things started to fall apart. To be fair, it was written in '13 for Ubuntu 12.10,
 I kind of figured it wouldn't fly on Trusty. Here are the steps I'm taking in my attempt to get this to work.
 
+This is built on a $5/mo DigitalOcean Droplet (512 MB Memory / 20 GB Disk), preinstalled with Ubuntu 14.04.3 x64.
+
 ```
 # add non-root user
 adduser sentry
@@ -38,7 +40,7 @@ sudo apt-get autoremove
 sudo reboot
 
 # install basic dependencies
-sudo apt-get install python-setuptools python-pip python-dev libxslt1-dev libxml2-dev libz-dev libffi-dev libssl-dev libpq-dev libyaml-dev
+sudo apt-get install git python-setuptools python-pip python-dev libxslt1-dev libxml2-dev libz-dev libffi-dev libssl-dev libpq-dev libyaml-dev
 
 # install postgres: https://help.ubuntu.com/community/PostgreSQL
 sudo apt-get install postgresql postgresql-contrib
@@ -49,8 +51,42 @@ postgres=# \password postgres
 postgres-# \quit
 sudo -u postgres createdb sentrydb
 
-# install redis: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis
+# install redis on 127.0.0.1:6379: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis
+sudo apt-get install tcl8.5
+wget http://download.redis.io/releases/redis-stable.tar.gz
+tar xzf redis-stable.tar.gz && cd redis-stable
+make && make test
+sudo make install
+cd utils && sudo ./install_server.sh
+sudo update-rc.d redis_6379 defaults
+# to start service: sudo service redis_6379 start
+# to stop service: sudo service redis_6379 stop
 
+# install nginx: https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-14-04-lts
+sudo apt-get install nginx-full
+sudo update-rc.d nginx defaults
+```
 
+From here, I'm pulling in part from [Sentry's on-prem instructions](https://docs.getsentry.com/on-premise/server/installation/#setting-up-an-environment), though deviating at
+points (like installing npm, for example):
 
 ```
+# install virtualenv
+# I needed to add sudo so this command wouldn't fail
+sudo pip install -U virtualenv
+
+# set virtualenv on /www/sentry
+sudo virtualenv /www/sentry/
+
+# activate virtaulenv
+source /www/sentry/bin/activate
+
+# install nodejs/npm 0.10 from source
+curl -sL https://deb.nodesource.com/setup_0.10 | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# install sentry from source
+sudo pip install -e git+https://github.com/getsentry/sentry.git@master#egg=sentry-dev
+
+```
+
