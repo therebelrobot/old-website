@@ -1,0 +1,36 @@
+---
+layout: post
+section-type: post
+title: The Node.js Holy War
+category: tech
+tags: [ 'node.js', 'io.js', 'practice', 'theory', 'politics', 'culture shock', 'origin stories' ]
+---
+
+#### It’s the new EMACS vs. VI.
+
+I’m pretty sure I just felt the collective shudder you all just had when you read that. The vitriol that has perpetuated in such a simple choice as preferred text editor has made the discussion difficult to even have, leaving newcomers to the field caught in the crossfire. A similar divide is starting to surface among users and implementors of Node.js, and I don’t think many people are taking notice or addressing it. While there is a very visible public division of Node.js and io.js, with reconciliation talks going more or less in circles, there is a divide that is occurring more globally, and not just to Javascript, I would think.
+
+But first a little bit of background.
+
+I started developing while doing tech support phone calls for a local web hosting company in Utah. I had a bit of hardware and Windows OS experience, but nothing that was necessarily useful at the time. At this job, we were encouraged to spend our free time learning HTML/CSS/PHP so we could assist better while on the call with our customers. When I got a taste of how my keystrokes was being translated into something useful, I was hooked. It was better than any drug I’ve had, and had a much easier hangover when done. I excelled in front-end development, learning as I proceeded to assist customers with weird esoteric issues they were having, for example, with how Frontpage published the page…​ _\*shudder\*_. I jumped into jQuery, which gave me an easy interface to the same selectors I was used to in CSS on the logic side. I built a couple jQuery plugins, stuff that wasn’t necessarily too impressive, but I was excited.
+
+I left that job for a front-end developer position with a marketing agency near where I lived. It was like my drug just got shoved into my arm via IV. I was learning fast, things I never dreamed of: MVC, mobile web development, build preprocessors, Angular! Node! I was in heaven. We had a constant stream of problems to solve in the agency with customers coming in left and right, and I was finally equipped to handle them with the knowledge I had gained and was still obtaining.
+
+During this time I start jumping more into the OSS development community on Github. I loved the philosophy of it all: free access to knowledge, no need to hide behind compilers and pay walls. So I started going to (and organizing) a meetup group to talk about and learn Node.js more. I organized hack nights and presentations, and learned so much about the implementation and use of Node in the process.
+
+It was here that I started seeing the inklings of conflict. I found that many newcomers were finding a portion of the community was uncomfortable with, and sometimes hostile to, their learning of the language. This portion generally were people who were already getting paid well in their companies, and have been in the programming industry for years, sometimes decades. That kind of experience was something I usually deferred to, but when an associate of mine said that we needed fewer programmers entering the field, referring to these quick 5 or 6 week courses to introduce people to programming, I was a little taken aback. This is open source, right? Don’t we need all the brains we can get? I know for myself that the more people I have to talk code with, the faster I can get a job done, because our collective intelligence is much more advanced than my individual intellect. I found the idea of making the barrier of entry smaller to be an altruistic and beneficial appreach, and that kind of elitism confused me. It was told to me that they wouldn’t understand the theory, that they’d just do what their companies need and pollute the ecosystem of development with crappy unreadable code.
+
+Then I moved on to large OSS projects like io.js. I started digging in and trying to learn about native moduling and more low-level implementations, and I started to see a very distinct pull of many developers toward a very theoretical approach to APIs and implementations, regardless of it’s practical application. Take, for example, [this appeal to algebraic consistency in the implementation of Promise.race](https://github.com/domenic/promises-unwrapping/issues/75#issuecomment-28641857). Or the [spec designed to shoehorn Streams into a Promise-like API](https://streams.spec.whatwg.org/), even though the spec on Promises doesn’t allow for bailing on a connection, or even pausing it, two features absolutely critical to future compatibility with current modules*.
+
+I understand the need for proper theory in development. It helps in implementation and seeing larger issues before we hit them in the real world. I think, however there are **many** issues that present themselves when we put too much emphasis on theory and book-application, and not enough on practical application and final use cases. The linked examples above are a few of the on-paper issues that arise, while that sense of elitism and cloistered-monk-brotherhood mentality I saw previously prevents people from learning, who themselves could bring great contributions into the development world.
+
+This issue isn’t unique to Javascript, though. Since it’s became more mainstream and accessible, computer development as a whole has struggled against these two warring industries that collide in their boundaries: **Science and Research into theory** vs. **Skilled trade pragmatism**. White collar meets blue collar in development, and with that joining comes a culture shock of melding concepts and implementations. Open vs closed source, newcomer-friendly vs a clean ecosystem, licenses vs patents, adhering to standards vs getting it done on time. These conflicts on the surface can seem like an all-or-nothing game, but I think that would be an unfortunate conclusion preventing further collaboration.
+
+I don’t think these are mutually exclusive industries. At least for me, theory and concept gets me to think high-level about a specific project, forsee issues before they arise, while being grounded and realistic to the practical realities of the implementation. I think too much of one and not enough of the other leads to dangerous roads, and either will make us lose sight of the problem we were trying to solve on one hand, or have an unmaintainable and unreadable codebase on the other.
+
+This is a very complex issue, and not one that I have any specific solution to. I’ll leave that to much smarter people than myself. The most I would like to do is call for greater communication of people working on any project, experienced and novice alike, and a greater understanding of the balancing act each of us need to perform every day we sit down to work.
+
+What do you think? Do you prefer theory over implementation? or vice versa? Comment below with how you have approached this issue in the past.
+
+_*Note: While the Promises spec doesn’t allow for backpressure/pausing/bailing, Streams do implement an API for it; This API is not part of the normal spec for Promises, and will be Streams specific for anyone trying to learn it, hence the term "shoehorning"_
+
