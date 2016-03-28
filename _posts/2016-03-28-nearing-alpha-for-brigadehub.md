@@ -13,9 +13,10 @@ Well, it's been a few weeks since that fateful decision. Brigadehub has grown, o
 
 We took our idea to CodeAcross, CfA's international hackathon, and had a great response. We got 2-3 more developers working on it, and were closing in on the elusive Alpha release, which we were aiming for by the end of it. We didn't hit that mark, sadly, but it got us a good portion of the way towards completing this round of the application
 
-We are now rounding in on what we believe will be a strong alpha candidate, and once complete, we hope to move Code for San Francisco's website over to it, full-time. It's a big endeavor, and it's gong to require a lot to actually hit it, but I strongly believe that we can do it. The amazing work of the team so far has been spectacular, and their continued enthusiasm is truly making this an experience worth treasuring.
+We are now rounding in on what we believe will be a strong alpha candidate, and once complete, we hope to move Code for San Francisco's website over to it, full-time. It's a big endeavor, and it's gong to require a lot to actually hit it, but I strongly believe that we can do it. Our very own Andrew Bacon pulled together [a fantastic proposal for the brigadehub logo](https://github.com/sfbrigade/brigadehub/issues/29#issuecomment-202092527), and the different technical pieces are falling into place to make sure this app runs properly on launch (or at least shortly thereafter :P ). The amazing work of the team so far has been spectacular, and their continued enthusiasm is truly making this an experience worth treasuring.
 
 If you'd like to take a look at the current status of brigadehub, check out the [github repo](https://github.com/sfbrigade/brigadehub), or shoot us a message on [sfbrigade's slack team, channel #brigadehub](http://c4sf.me/slack).
 
 Until next time,
+
 Trent
