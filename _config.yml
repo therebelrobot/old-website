@@ -55,7 +55,7 @@ lines:			# You can add HTML Tags in the Text
 
 post-preview-words: 128
 
-paginate: 5
+paginate: 10
 
 fb-share: True
 twitter-share: True
