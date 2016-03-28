@@ -61,10 +61,6 @@ fb-share: True
 twitter-share: True
 reddit-share: True
 disqus-shortname: "therebelrobot"
-collections:
-  posts:
-    output: true
-    permalink: /posts/:short_year/:month/:day/:title:output_ext
 
 ###############
 # Life Events #
