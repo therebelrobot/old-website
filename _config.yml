@@ -68,22 +68,22 @@ disqus-shortname: "therebelrobot"
 
 events:
   - image: "/img/career/sfbrigade.jpg"
-    date: "September 2015 - Today"
+    date: "September 2015 -<br /> July 2016"
     description: "Website & Tools Team Leader @ [Code for San Francisco](http://codeforsanfrancisco.org)"
   - image: "/img/career/mashape.png"
     date: "March 2015 - TODAY"
     description: "Full-stack Engineer over Galileo Analytics @ [Mashape](https://mashape.com)"
   - image: "/img/career/node.png"
-    date: "January 2015 - Today"
+    date: "January 2015 -<br /> August 2015"
     description: "Website Working Group Member / Facilitator for [Node.js/io.js](https://nodejs.org)"
   - image: "/img/career/grow.png"
-    date: "AUGUST 2014 - MARCH 2015"
+    date: "AUGUST 2014 <br/>- MARCH 2015"
     description: "Senior Software Engineer @ [Grow](https://grow.com)"
   - image: "/img/career/unn.jpg"
-    date: "July 2014 - Feb 2015"
+    date: "July 2014 -<br/> February 2015"
     description: "Organizer / Mentor / Presenter @ [Utah Node Ninjas](http://www.meetup.com/Utah-Node-Ninjas)"
   - image: "https://i.imgur.com/lElVqA0.png"
-    date: "MARCH 2013 - JULY 2014"
+    date: "MARCH 2013 <br/>- JULY 2014"
     description: "Frontend Engineer @ [Rain](http://rain.agency/)"
 
 #################
@@ -91,6 +91,14 @@ events:
 #################
 
 repos:
+  - image: "https://i.imgur.com/SEHsjog.png"
+    location: "http://trustoss.org"
+    name: "trustoss"
+    description: "Documentation standards <br/> to build trust in OSS"
+  - image: "https://i.imgur.com/njyG276.png"
+    location: "https://github.com/therebelrobot/segment-dispatcher"
+    name: "segment-dispatcher"
+    description: "A Node/Docker based <br/> agent tester for Segment"
   - image: "https://i.imgur.com/nNpj0nc.png"
     location: "https://github.com/sfbrigade/brigadehub"
     name: "brigadehub"
@@ -106,7 +114,7 @@ repos:
   - image: "https://i.imgur.com/g8sHzQn.png"
     location: "https://github.com/therebelrobot/soxx"
     name: "soxx"
-    description: "The missing microlib for websockets in the modern browser"
+    description: "The missing microlib for websockets <br/> in the modern browser"
   - image: "https://i.imgur.com/eWJhAK6.png"
     location: "https://github.com/therebelrobot/multislack"
     name: "multislack"
@@ -122,7 +130,7 @@ repos:
   - image: "https://i.imgur.com/znkXFIc.png"
     location: "https://github.com/therebelrobot/note-taker"
     name: "note-taker"
-    description: "A Mobile-first note taking app built in Vue.js"
+    description: "A Mobile-first note taking app <br /> built in Vue.js"
 
 # First image of the Career timeline
 career-img: "/img/avatar.png"
