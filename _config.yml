@@ -16,13 +16,13 @@ google-tracking-id: "UA-59630297-1"
 # HTML Head #
 #############
 
-author: "Trent Oswald"
+author: "Oz Haven"
 lang: "en"
-pagetitle: "Trent Oswald - therebelrobot"
-title: "Trent Oswald <img src='/img/black-lab-glass.ico'/> therebelrobot"
+pagetitle: "Oz Haven - therebelrobot"
+title: "Oz Haven <img src='/img/black-lab-glass.ico'/> therebelrobot"
 favicon: "/img/favicon.ico"
-description: "Blog and website of Trent Oswald, blogging mainly for tech. Opinions expressed are mine."
-keywords: "oswald, trent, personal, node, javascript, programming, tech, go, golang"
+description: "Blog and website of Oz Haven (Trent Oswald), blogging mainly for tech. Opinions expressed are mine."
+keywords: "oswald, trent, haven, ozzy, oz, trenton, personal, node, javascript, programming, tech, go, golang"
 
 ################
 # Intro layout #
