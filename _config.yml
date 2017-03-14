@@ -67,11 +67,14 @@ disqus-shortname: "therebelrobot"
 ###############
 
 events:
+  - image: "https://i.imgur.com/3jbpctz.png"
+    date: "September 2016 <br/>- TODAY"
+    description: "Full-stack Engineer @ [Segment](https://segment.com)"
   - image: "/img/career/sfbrigade.jpg"
-    date: "September 2015 -<br /> July 2016"
-    description: "Website & Tools Team Leader @ [Code for San Francisco](http://codeforsanfrancisco.org)"
+    date: "September 2015 -<br /> TODAY"
+    description: "Infrastructure Team Lead @ [Code for San Francisco](http://codeforsanfrancisco.org)"
   - image: "/img/career/mashape.png"
-    date: "March 2015 - TODAY"
+    date: "March 2015 <br/>- September 2016"
     description: "Full-stack Engineer over Galileo Analytics @ [Mashape](https://mashape.com)"
   - image: "/img/career/node.png"
     date: "January 2015 -<br /> August 2015"
