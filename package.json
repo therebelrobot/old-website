@@ -1,0 +1,30 @@
+{
+  "name": "therebelrobot.github.io",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/therebelrobot.github.io.git"
+  },
+  "author": "Oz Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/therebelrobot.github.io/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/therebelrobot.github.io#readme",
+  "devDependencies": {
+    "poi": "^9.6.0",
+    "poi-preset-react": "^9.2.1"
+  },
+  "dependencies": {
+    "@saleae/ui-lib": "^0.0.26",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-feather": "^1.0.7",
+    "styled-components": "^2.2.4"
+  }
+}

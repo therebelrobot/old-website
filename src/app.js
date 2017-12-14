@@ -1,24 +1,38 @@
-var _ = require('lodash')
-var mithrilCore = require('mithril')
-var m = require('mithril-router')(mithrilCore)
+import {
+  Provider,
+} from '@saleae/ui-lib';
 
-var doc = document.getElementById('therebelrobot');
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
 
-var vm = {}
-vm.userData = m.prop({})
-console.log('VM',vm)
-var mainCtrl = {}
-mainCtrl.controller= require('./controller')(vm)
-mainCtrl.view= require('./view')(vm)
+import Home from './containers/Home'
 
-m.route.mode = 'hash'
+import { injectGlobal } from 'styled-components'
 
-m.route(doc, '/', {
-  '/': {
-    controller: mainCtrl,
-    namespace: 'root',
-    root: true
-  }
-})
+import { globalStyles } from './theme'
 
-console.log('loaded mithril')
+injectGlobal`${globalStyles}`
+
+const render = Component => {
+  ReactDOM.render(
+    <AppContainer>
+      <Provider
+        theme={{
+      		font: '"Quattrocento", times, serif',
+      		fontSizes: [
+      			12, 16, 24, 36, 48, 72
+      		]
+      	}}>
+        <Component />
+      </Provider>
+    </AppContainer>,
+    document.getElementById('app')
+  )
+}
+
+render(Home)
+
+if (module.hot) {
+  module.hot.accept('./containers/Home', () => { render(Home) })
+}
