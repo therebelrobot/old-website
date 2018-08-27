@@ -1,0 +1,86 @@
+==================================================================
+https://keybase.io/therebelrobot
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://therebelrobot.com
+  * I am therebelrobot (https://keybase.io/therebelrobot) on keybase.
+  * I have a public key with fingerprint D2CA 113F 6B55 1E9A 5B85  EDF5 CA01 35D9 72B9 A756
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012087e8e512a9c588cd6d38c98e718b94c9480d0bec4d03e0a7a14b596347fb49db0a",
+      "fingerprint": "d2ca113f6b551e9a5b85edf5ca0135d972b9a756",
+      "host": "keybase.io",
+      "key_id": "ca0135d972b9a756",
+      "kid": "0101f523043949eb3fd0b3a44df6cb920e1293995746314a78b1b1cc3cf8e832729a0a",
+      "uid": "0e8ed73e7a8c411a651358757c9f3d19",
+      "username": "therebelrobot"
+    },
+    "merkle_root": {
+      "ctime": 1535387812,
+      "hash_meta": "bf136f0ce47ab6d72da210a60ab707a5215adbb2fda2e99ba591c804650157f7",
+      "seqno": 3521923
+    },
+    "revoke": {
+      "sig_ids": [
+        "4b3b90701bf099634f5f0158b31364004209784d25fe961d38eea385c680e45e0f"
+      ]
+    },
+    "service": {
+      "hostname": "therebelrobot.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1535387864,
+  "expire_in": 157680000,
+  "prev": "254e7422e4bfe558f3b356c9c4a134b5380a355e290c8eb6064913fbaea8000e",
+  "seqno": 78,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtk3tsFEUcx1soj14EihICTZGwYh9QyMzOzO7OaYsEDJICmkJBLXDO7M7S4653
+7d5RC30ESAW0iAVbLBDkLVpTTFBEoISmQV5GLIoIrZQWKLVEQK1YgzycqxITw/6z
+md9+f9/fZ78zUzGgd5Qr+lQ0ueAc2D07+qtOHpVdlnylSOFBa7HiLlJ8oucl/JYI
+hT0+r6W4FQBVYOjCEASqjJrEMExLs5BhUkPo0OAUmxQbwAJcmNgCSACmM4g5oRrC
+us0xtThgSqpiewMLhJPneANhaWupJoMQ2RonBArKCDeIsGxiMgARsaiucsp0osnG
+nGAo0iHhOAuJ8d6grMmFpwfvEfqH3ADaREUAI4qp4MiWiIhhbNmayakKBFQpopTo
+WEMQM93gkEPTRKZtCAOpukpZD/eif+xkApaOhM4ME0PINCLHGjrRTWojC9KIMCSc
+AMsVUh3OEY7gwu8EeTCslKQqucLx+YXHCcqlTNgMeyM6SBBBhm5AVf4lC+V4ckWY
+yXZuQ6TZwBRYZ1yzdNViKgRMA4zrQGdEhYRZnKu2rAtKOSMUmgbAGgGQ6LYuYUIi
+PxBU3EhqqYokgSMKgj4RGR7yLpDZhRR3dv0yBXPEKdAB5DagkS2ziS1NDI4kAgYA
+q4DqBrZUYguqQbnxQjBkEFMzgMBEAFuZVxIZ5xR4zR77yHY9KobxZjBXguU5wXDQ
+DPrl55xwOC/kjsQTXpwX0b8uuOdfJw/3Bix5YmRHgXBC3mBAxiWV/0tOw6mKKMzz
+OsLjjSiILrnkE5kjCqSlSrDQsaoKzG1BiGEjjohmUhMziOQpRQZgiBChUmAagmtA
+w1QeS84EixiJ/6LUDcnJFkhPGWCAhRc5QilxvdkLxURFu6JGDB0V8+2pwRN8WU9u
+zH7jxu2Ht6xPr8gVi3LFxj2svNtv0L2RA9iUsg/un17U3e+j0SNq4PUdRXez0itu
+JQzfkFG5rCKzo3IX6H7nclLnlA8Lcd7QDDj8iSVXi+Mmlt6YO2mFyO0/Oe14wbYz
+VQnjzq+rHVgND8UfT67LIuqZlR/HVUx7fPP+tJOn8pMycfA4zh/dHrvaaFszLkt0
+IfcPm3bd9Oxo+nXazuzme1fLN3uX718VX/jMC7NmlGvLW8YfbC2Oz3qroTajtrVv
+sdO4d1inZ+GYjjQj7cbEwpE8kD4p8c7eWUu3PF1dP3iJ896Fi9WJz3YMcb0/c2DG
+ui2bkmLS7789Z29pv33Xoltqvuj90lpt8up9evvM/HkxL/40ZHpZd1PC1NPTS+vE
+rdvb3TFdAzPrt/VtvF41oRc4QPbUr//6RFXXofZRa3Jud81ObRyU+WXlK2ebzrWv
+295x8FL/faGK9Kkn4r/5NH1Mecrusgsl1mPDRq088ntJ8uHktldX1OemuX4MXCuZ
+cdg8evL8+sbnH2wqby7abTd2tm4d9lxb/+oJzp6U777/s25pTt/JnVPvkIkzPzk7
+EsTu3HCnc35NVd36I3EPFp7r85e5tY9W8Id7beK41y4meIt/K1s4q/Spm5dBW8a1
+m5eb5+xnx+ae7AglHtt4vsL/y924+UM3do9R/J/7muJf/sznrDrbEnumMO/erdHN
+zSmpY1tdrob0yrIrxUf9DfaW9ulJl34e25BSMzi/pfZv
+=4pJC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/therebelrobot
+
+==================================================================
