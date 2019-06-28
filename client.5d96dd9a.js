@@ -63,12 +63,12 @@ var Header = function Header() {
       __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_0__saleae_ui_lib__["Subhead"],
         null,
-        'Oz Haven'
+        'Aster Haven'
       ),
       __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         SubSubSubhead,
         null,
-        '(Trent Oswald)'
+        ''
       )
     )
   );
