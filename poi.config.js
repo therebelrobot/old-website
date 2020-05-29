@@ -1,15 +1,28 @@
+// import { Config } from "poi";
+
+// const config: Config = {
 module.exports = {
-  entry: './src/app.js',
-  presets: [
-    require('poi-preset-react')()
+  entry: "src/index.tsx",
+  plugins: [
+    {
+      resolve: "@poi/plugin-typescript",
+      options: {},
+    },
   ],
-  html: {
-    title: 'theRebelRobot - Oz Haven (Trent Oswald)',
-    description: 'Software, Audioware, Gardenware',
+  devServer: {
+    port: 4449,
+    open: true,
   },
-  webpack(cfg) {
-    console.log(cfg.plugins)
-    cfg.plugins = cfg.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
-    return cfg // <-- Important, must return it
-  }
-}
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "react-dom": "@hot-loader/react-dom",
+      },
+    },
+  },
+  output: {
+    dir: "dist",
+  },
+};
+
+// export default config;

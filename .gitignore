@@ -18,3 +18,4 @@ _deploy/*
 Rakefile
 
 node_modules
+.cache
