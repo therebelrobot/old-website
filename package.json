@@ -1,0 +1,32 @@
+{
+  "name": "therebelrobot.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/therebelrobot.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/therebelrobot.github.io/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/therebelrobot.github.io#readme",
+  "dependencies": {
+    "evergreen-ui": "^4.19.1",
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-feather": "^2.0.3",
+    "react-helmet": "^5.2.1",
+    "react-spotify-web-playback": "^0.6.0",
+    "react-youtube": "^7.9.0"
+  }
+}
